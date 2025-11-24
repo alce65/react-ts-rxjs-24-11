@@ -4,20 +4,7 @@
   - [OBJETIVOS](#objetivos)
   - [Desarrollo](#desarrollo)
     - [Semana 1](#semana-1)
-      - [Día 1 - Lunes 03/11/2026](#día-1---lunes-03112026)
-      - [Día 2 - Martes 04/11/2026](#día-2---martes-04112026)
-      - [Día 3 - Miércoles 05/11/2026](#día-3---miércoles-05112026)
-      - [Día 4 - Jueves 06/11/2026](#día-4---jueves-06112026)
-    - [Semana 2](#semana-2)
-      - [Día 5 - Lunes 10/11/2026](#día-5---lunes-10112026)
-      - [Día 6 - Martes 11/11/2026](#día-6---martes-11112026)
-      - [Día 7 - Miércoles 12/11/2026 - hasta las 17.15](#día-7---miércoles-12112026---hasta-las-1715)
-      - [Día 8 - Jueves 13/11/2026](#día-8---jueves-13112026)
-    - [Semana 3](#semana-3)
-      - [Día 9 - Lunes 17/11/2026](#día-9---lunes-17112026)
-      - [Día 10 - Martes 18/11/2026](#día-10---martes-18112026)
-      - [Día 11 - Miércoles 19/11/2026](#día-11---miércoles-19112026)
-      - [Día 12 - Jueves 20/11/2026](#día-12---jueves-20112026)
+      - [Día 1 - Lunes 24/11/2026 (3 horas)](#día-1---lunes-24112026-3-horas)
 
 DURACIÓN: 45 horas
 
@@ -41,7 +28,7 @@ Avanzado
 
 ### Semana 1
 
-#### Día 1 - Lunes 03/11/2026
+#### Día 1 - Lunes 24/11/2026 (3 horas)
 
 - Presentación: formador y alumnos
 - Introducción: curso, temario, objetivos, metodología, herramientas previas
@@ -49,16 +36,18 @@ Avanzado
 - Configuración proyecto React + TS + Vite
 - Incorporación de Vitest
 
-[descanso]
+[descanso]  16:50 - 17:10
 
 - TypeScript: proyecto básico (pure TS) en el monorepo
-- Introducción a TypeScript:
+- Introducción a TypeScript (1):
   - tipos básicos, interfaces y tipos
+
+<!-- #### Día 2 - Martes 25/11/2026 (3 horas)
+
+- Introducción a TypeScript (2)
   - combinación de tipos, records
   - clases (OOP)
   - narrowing: type guards, discriminated unions
-
-#### Día 2 - Martes 04/11/2026
 
 - React básico
 - Ejercicio práctico: proyecto React + TS + Vite -> convertir a componentes funcionales
@@ -85,9 +74,9 @@ Avanzado
   - Composición de componentes. Prop drilling
 - 🧿**Counter**
   - Uso de hooks básicos: useState. Tipado del estado con TypeScript
-  - Eventos y su tipado en TypeScript
+  - Eventos y su tipado en TypeScript -->
 
-#### Día 3 - Miércoles 05/11/2026
+<!-- #### Día 3 - Miércoles 26/11/2026 (3 horas)
 
 - Tipado de eventos en TypeScript
   - Eventos específicos
@@ -113,9 +102,9 @@ Avanzado
     - ⚙️Servicio getData basado en promesas
     - 👁️‍🗨️Test del servicio
   - 🧿Componente Search con promesas
-    - Consumo del servicio getData
+    - Consumo del servicio getData -->
 
-#### Día 4 - Jueves 06/11/2026
+<!-- #### Día 4 - Jueves 25/11/2026 (3 horas)
 
 - 🧿Componente Search con promesas (continuación)
   - 👁️‍🗨️Test del componente
@@ -141,11 +130,11 @@ Avanzado
 
 - Introducción a RxJS
   - Observables
-  - Tipos: cold v. hot
+  - Tipos: cold v. hot -->
 
-### Semana 2
+<!-- ### Semana 2
 
-#### Día 5 - Lunes 10/11/2026
+#### Día 5 - Lunes 01/12/2026 (3:45 horas)
 
 - Proyecto TS-Rx
 - Observable cold. Suscripciones
@@ -182,9 +171,9 @@ Avanzado
     - operadores de RxJS: map, scan..
   - Observables e intervalos: 🧿IntervalCounter
     - interval: creación del observable
-    - useEffect y suscripciones: actualización del estado
+    - useEffect y suscripciones: actualización del estado -->
 
-#### Día 6 - Martes 11/11/2026
+<!-- #### Día 6 - Martes 02/12/2026 (3:45 horas)
 
 - Desuscripción
 
@@ -203,9 +192,9 @@ Avanzado
 - Genéricos en React. 🧿Componente List genérico
 - Mapped Types
 - Conditional Types
-- Utility Types
+- Utility Types -->
 
-#### Día 7 - Miércoles 12/11/2026 - hasta las 17.15
+<!-- #### Día 7 - Miércoles 03/12/2026 (3:45 horas)
 
 - Terminar Utility Types
 - Comentar 🧿Componente User uniones v. condicionales
@@ -226,9 +215,9 @@ Avanzado
     - 👁️‍🗨️Test de los componentes -> test de los hookscd
   - 🧿Componente ClicksCounter (Eventos) ->
     - ⚙️useObservable.v3 + useSubscription
-    - 👁️‍🗨️Test de los componentes -> test de los hooks
+    - 👁️‍🗨️Test de los componentes -> test de los hooks -->
 
-#### Día 8 - Jueves 13/11/2026
+<!-- #### Día 8 - Jueves 04/12/2026 (3:45 horas)
 
 - Hooks Personalizados y RxJS (continuación)
   - Componente y multiples estados: 🧿UserLogged -> ⚙️useUserLogged
@@ -248,11 +237,11 @@ Avanzado
 
   - Combinación de observables
   - Constantes Observables
-  - Observables de Orden Superior (Higher-Order Observables)
+  - Observables de Orden Superior (Higher-Order Observables) -->
 
-### Semana 3
+<!-- ### Semana 3
 
-#### Día 9 - Lunes 17/11/2026
+#### Día 9 - Martes 09/12/2026 (3:45 horas)
 
 - Observables de Orden Superior (Higher-Order Observables)
   - 🧿Componente Fibonacci v.2
@@ -274,9 +263,9 @@ Avanzado
   - promesas en fetch
   - Peticiones HTTP con RxJS
     - ajax
-    - fromFetch (más actual)
+    - fromFetch (más actual) -->
 
-#### Día 10 - Martes 18/11/2026
+<!-- #### Día 10 - Miércoles 10/12/2026 (3:45 horas)
 
 - Http Client
   - ⚙️Servicio genérico dataFetch
@@ -293,9 +282,9 @@ Avanzado
   - ⚙️Servicio SearchCountries
   - 🧿Componente SearchCountries
 - Test de servicios HTTPClient
-  - 👁️‍🗨️Test del servicio fetchService (generico)
+  - 👁️‍🗨️Test del servicio fetchService (generico) -->
 
-#### Día 11 - Miércoles 19/11/2026
+<!-- #### Día 11 - Jueves 11/12/2026 (3:45 horas)
 
 - Http Client (continuación)
 
@@ -319,13 +308,15 @@ Avanzado
     - [Opción: useReducerRx (Sin desarrollar info, solo el código)]
     - Combinación de flujos y operadores complejos
       - ⚙️Servicios getByUrl y searchPokemon
-      - 🧿Componente SearchPokemon
+      - 🧿Componente SearchPokemon -->
 
-#### Día 12 - Jueves 20/11/2026
+<!--### Semana 3
+
+ #### Día 12 - Lunes 15/12/2026 (3:45 horas)
 
     - Flujos de datos en múltiples componentes
       - ⚙️SubjectManager: servicio para compartir flujos
-      - 🧿DemoPage con componentes que com8parten flujos
+      - 🧿DemoPage con componentes que com8parten flujos -->
 
 <!--
   [Opción no incluida - desde proyecto proof]
@@ -333,7 +324,7 @@ Avanzado
   - Weather series (uso de ReplaySubject)
 -->
 
-[descanso] 16:13 - 16:30
+<!-- [descanso] 16:13 - 16:30
 
 - Creación de flujos de datos reactivos con RxJS: Hot Observables
 
@@ -355,8 +346,10 @@ Avanzado
     - 🧿Componente Notes con State Manager Service
     - 🧿Componente AddNotes con State Manager Service
 
+#### Día 13 - Martes 16/12/2026 (3 horas)
+
 Comentar lo abarcado de los módulos siguientes:
 
 6 - patrones
 7 - testing
-8 - optimización
+8 - optimización -->
