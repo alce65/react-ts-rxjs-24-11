@@ -5,6 +5,7 @@
   - [Desarrollo](#desarrollo)
     - [Semana 1](#semana-1)
       - [Día 1 - Lunes 24/11/2026 (3 horas)](#día-1---lunes-24112026-3-horas)
+      - [Día 2 - Martes 25/11/2026 (3 horas)](#día-2---martes-25112026-3-horas)
 
 DURACIÓN: 45 horas
 
@@ -42,29 +43,24 @@ Avanzado
 - Introducción a TypeScript (1):
   - tipos básicos, interfaces y tipos
 
-<!-- #### Día 2 - Martes 25/11/2026 (3 horas)
+#### Día 2 - Martes 25/11/2026 (3 horas)
 
 - Introducción a TypeScript (2)
-  - combinación de tipos, records
+  - combinación de tipos
   - clases (OOP)
   - narrowing: type guards, discriminated unions
 
 - React básico
 - Ejercicio práctico: proyecto React + TS + Vite -> convertir a componentes funcionales
 
-  - Solución de los problemas de instalación
   - Tiempo para el ejercicio
+
+[descanso] Incluido en el tiempo de ejercicio
 
 - 🧿**Footer**
   - Estructura de carpetas para componentes
   - Componentes funcionales y elementos JSX. Tipado con TypeScript
   - Estilos CSS: archivos CSS por componente
-  - 👁️‍🗨️Tests unitarios con Vitest
-    - Elementos de los tests. Matching
-    - Testing Library. Querying
-
-[descanso]
-
 - 🧿**Header**
   - Props y tipado de props con TypeScript
 - 🧿**Card**
@@ -74,15 +70,18 @@ Avanzado
   - Composición de componentes. Prop drilling
 - 🧿**Counter**
   - Uso de hooks básicos: useState. Tipado del estado con TypeScript
-  - Eventos y su tipado en TypeScript -->
+
+- 👁️‍🗨️Tests unitarios con Vitest
+  - Elementos de los tests. Matching
+  - Testing Library. Querying
+  - 👁️‍🗨️Testing del componente
 
 <!-- #### Día 3 - Miércoles 26/11/2026 (3 horas)
 
-- Tipado de eventos en TypeScript
-  - Eventos específicos
-  - target vs currentTarget. Casting
-- 🧿Componente Counter 2Buttons
-
+- 🧿Componente Counter MultiButtons
+  - Tipado de eventos en TypeScript
+    - Eventos específicos
+    - target vs currentTarget. Casting
   - 👁️‍🗨️Testing del componente
 
 - Formularios controlados vs no controlados
@@ -92,7 +91,7 @@ Avanzado
   - 🧿Componente RegisterForm (no controlado)
   - 👁️‍🗨️Tests de formularios
 
-- Add project demo1 clonado de Demo1
+- Add project demo1 clonado de Demo0
 
 [descanso]
 
