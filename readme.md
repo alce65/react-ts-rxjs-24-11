@@ -33,7 +33,7 @@ Avanzado
 - Presentación: formador y alumnos
 - Introducción: curso, temario, objetivos, metodología, herramientas previas
 - Instalación monorepo {monorepo}
-- Configuración proyecto React + TS + Vite
+- Configuración proyecto React + TS + Vite (ESlint)
 - Incorporación de Vitest
 
 [descanso]  16:50 - 17:10
