@@ -88,6 +88,8 @@ export const book: BookProduct = {
 };
 
 type WithReference = { reference: string };
+// interface WithReferenceI { reference: string };
+
 // Combinamos dos tipos propios
 type SpecialBookProduct = BookProduct & WithReference;
 
@@ -153,8 +155,10 @@ export const area = (s: Shape): number => {
             return s.width * s.height;
         case 'circle':
             return Math.PI * s.radius ** 2;
-        default:
+        default: {
             // Exhaustividad
-            return s; // Si llegamos aquí, s es de tipo 'never'
+            const _exhaustiveCheck: never = s;
+            return _exhaustiveCheck; // Si llegamos aquí, s es de tipo 'never'
+        }
     }
 };
