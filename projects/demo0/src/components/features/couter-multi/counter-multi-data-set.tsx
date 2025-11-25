@@ -8,7 +8,7 @@ type Props = {
 export const CounterMulti: React.FC<Props> = ({ initialCount = 0 }) => {
     const [count, setCount] = React.useState(initialCount);
 
-    const handleIncrement = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const handleIncrement = (event: React.MouseEvent<HTMLButtonElement>): void => {
         const value = Number(event.currentTarget.getAttribute('data-value'));
         if (value === 0) {
             setCount(0);

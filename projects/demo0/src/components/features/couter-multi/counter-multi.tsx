@@ -8,7 +8,7 @@ type Props = {
 export const CounterMulti: React.FC<Props> = ({ initialCount = 0 }) => {
     const [count, setCount] = React.useState(initialCount);
 
-    const handleIncrement = (value: number = 1) => {
+    const handleIncrement = (value = 1): void => {
         if (value === 0) {
             setCount(0);
         } else {
