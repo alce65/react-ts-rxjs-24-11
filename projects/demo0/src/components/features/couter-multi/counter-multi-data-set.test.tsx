@@ -1,27 +1,28 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { CounterMulti } from './counter-multi';
+import { CounterMultiDS } from './counter-multi-data-set';
 
-describe('CounterWithEvent1 component', () => {
+describe('CounterMultiDS component', () => {
+    
+    let outputElement:  HTMLElement;
+    beforeEach(() => {
+        render(<CounterMultiDS initialCount={0} />);
+        outputElement = screen.getByRole('status');
+    });
+
     test('should start with 0', () => {
-        render(<CounterMulti initialCount={0} />);
-        const outputElement = screen.getByRole('status');
         expect(outputElement).toHaveTextContent('0');
     });
 
     test('should increase after click the button ➕', async () => {
-        render(<CounterMulti initialCount={0} />);
         const buttonElement = screen.getByRole('button', { name: /➕/i });
         await userEvent.click(buttonElement);
-        const outputElement = screen.getByRole('status');
         expect(outputElement).toHaveTextContent('1');
     });
 
     test('should decrease after click the button ➖', async () => {
-        render(<CounterMulti initialCount={0} />);
         const buttonElement = screen.getByRole('button', { name: /➖/i });
         await userEvent.click(buttonElement);
-        const outputElement = screen.getByRole('status');
         expect(outputElement).toHaveTextContent('-1');
     });
 });

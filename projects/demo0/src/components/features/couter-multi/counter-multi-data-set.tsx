@@ -5,10 +5,14 @@ type Props = {
     readonly initialCount?: number;
 };
 
-export const CounterMulti: React.FC<Props> = ({ initialCount = 0 }) => {
+export const CounterMultiDS: React.FC<Props> = ({ initialCount = 0 }) => {
     const [count, setCount] = React.useState(initialCount);
 
-    const handleIncrement = (event: React.MouseEvent<HTMLButtonElement>): void => {
+    const handleChange: React.MouseEventHandler<HTMLButtonElement> = (event) => {
+        
+        console.log((event.target as HTMLButtonElement).dataset);
+        console.log(event.currentTarget.dataset)
+
         const value = Number(event.currentTarget.getAttribute('data-value'));
         if (value === 0) {
             setCount(0);
@@ -20,7 +24,7 @@ export const CounterMulti: React.FC<Props> = ({ initialCount = 0 }) => {
     return (
         <Card title="Contador con botones">
             <button
-                onClick={handleIncrement}
+                onClick={handleChange}
                 data-value="-1"
                 title="Decrement counter"
             >
@@ -31,17 +35,13 @@ export const CounterMulti: React.FC<Props> = ({ initialCount = 0 }) => {
                 <output>{count}</output>
             </span>
             <button
-                onClick={handleIncrement}
+                onClick={handleChange}
                 data-value="1"
                 title="Increment counter"
             >
                 ➕
             </button>
-            <button
-                onClick={handleIncrement}
-                data-value="0"
-                title="Reset counter"
-            >
+            <button onClick={handleChange} data-value="0" title="Reset counter">
                 🌐
             </button>
         </Card>
