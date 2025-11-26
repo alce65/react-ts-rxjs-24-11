@@ -6,6 +6,7 @@
     - [Semana 1](#semana-1)
       - [Día 1 - Lunes 24/11/2026 (3 horas)](#día-1---lunes-24112026-3-horas)
       - [Día 2 - Martes 25/11/2026 (3 horas)](#día-2---martes-25112026-3-horas)
+      - [Día 3 - Miércoles 26/11/2026 (3 horas)](#día-3---miércoles-26112026-3-horas)
 
 DURACIÓN: 45 horas
 
@@ -74,26 +75,38 @@ Avanzado
 - 👁️‍🗨️Tests unitarios con Vitest
   - Elementos de los tests. Matching
   - Testing Library. Querying
-  - 👁️‍🗨️Testing del componente
-
-<!-- #### Día 3 - Miércoles 26/11/2026 (3 horas)
-
+  - 👁️‍🗨️Testing de los componentes
+  
 - 🧿Componente Counter MultiButtons
+
+#### Día 3 - Miércoles 26/11/2026 (3 horas)
+
+- 🧿Componente Counter MultiButtons (continuación)
+
   - Tipado de eventos en TypeScript
     - Eventos específicos
     - target vs currentTarget. Casting
   - 👁️‍🗨️Testing del componente
 
-- Formularios controlados vs no controlados
+- Formularios controlados
 
   - ⚙️Servicio usuarios (mock)
   - 🧿Componente LoginForm (controlado)
+  - 👁️‍🗨️Tests de formularios
+
+[descanso] : 17:25 - 17:40
+
+- Formularios no controlados
+
   - 🧿Componente RegisterForm (no controlado)
+
+<!-- 
+
+- Formularios no controlados (continuación)
+  - Abstracción de lógica: funciones tools
   - 👁️‍🗨️Tests de formularios
 
 - Add project demo1 clonado de Demo0
-
-[descanso]
 
 - Programación asíncrona v. reactiva
   - Conceptos
