@@ -1,4 +1,5 @@
-import type { Login, Register } from "../user";
+import type { Login, Register } from "../types/user";
+
 
 
 // Simula la gestión del login (por ejemplo, llamada a una API)

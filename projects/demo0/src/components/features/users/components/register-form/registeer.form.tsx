@@ -1,6 +1,8 @@
 import { Card } from '@components/core/card/card';
 import React from 'react';
 import type { Register } from '../../types/user';
+import { getDataOfForm } from '../../services/form-tools';
+import { registerUserService } from '../../services/user.service';
 
 const initialFormData: Register = {
     userName: '',
@@ -16,8 +18,8 @@ export const RegisterForm: React.FC = () => {
         event.preventDefault();
         // Accedemos a los datos del formulario usando 'event.currentTarget'
         const form = event.currentTarget;
-        const formData = new FormData(form); // Puedes usar FormData para obtener los datos fácilmente
-        console.log(formData);
+        // const formData = new FormData(form); // Puedes usar FormData para obtener los datos fácilmente
+        const register = getDataOfForm<Register>(form, initialFormData);
 
         // const record: Record<string, string | boolean> = {};
 
@@ -30,18 +32,19 @@ export const RegisterForm: React.FC = () => {
         // });
         // console.log(record);
 
-        const record: Record<string, string | boolean> = {};
+        // const record: Record<string, string | boolean> = {};
 
-        Object.keys(initialFormData).forEach((key) => {
-            const element = form.elements.namedItem(key);
-            record[key] =
-                element instanceof HTMLInputElement && element.type === 'checkbox'
-                    ? element.checked
-                    : (element as HTMLInputElement | HTMLSelectElement).value;
-        });
-        console.log(record);
+        // Object.keys(initialFormData).forEach((key) => {
+        //     const element = form.elements.namedItem(key);
+        //     record[key] =
+        //         element instanceof HTMLInputElement && element.type === 'checkbox'
+        //             ? element.checked
+        //             : (element as HTMLInputElement | HTMLSelectElement).value;
+        // });
+        // console.log(record);
 
         // Aquí puedes manejar el envío de datos, por ejemplo, llamando a un servicio
+       registerUserService(register)
     };
 
     return (
