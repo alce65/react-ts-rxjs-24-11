@@ -7,6 +7,7 @@
       - [Día 1 - Lunes 24/11/2026 (3 horas)](#día-1---lunes-24112026-3-horas)
       - [Día 2 - Martes 25/11/2026 (3 horas)](#día-2---martes-25112026-3-horas)
       - [Día 3 - Miércoles 26/11/2026 (3 horas)](#día-3---miércoles-26112026-3-horas)
+      - [Día 4 - Jueves 25/11/2026 (3 horas)](#día-4---jueves-25112026-3-horas)
 
 DURACIÓN: 45 horas
 
@@ -38,7 +39,7 @@ Avanzado
 - Configuración proyecto React + TS + Vite (ESlint)
 - Incorporación de Vitest
 
-[descanso]  16:50 - 17:10
+[descanso] 16:50 - 17:10
 
 - TypeScript: proyecto básico (pure TS) en el monorepo
 - Introducción a TypeScript (1):
@@ -47,6 +48,7 @@ Avanzado
 #### Día 2 - Martes 25/11/2026 (3 horas)
 
 - Introducción a TypeScript (2)
+
   - combinación de tipos
   - clases (OOP)
   - narrowing: type guards, discriminated unions
@@ -70,13 +72,13 @@ Avanzado
 - 🧿**App**
   - Composición de componentes. Prop drilling
 - 🧿**Counter**
+
   - Uso de hooks básicos: useState. Tipado del estado con TypeScript
 
 - 👁️‍🗨️Tests unitarios con Vitest
   - Elementos de los tests. Matching
   - Testing Library. Querying
   - 👁️‍🗨️Testing de los componentes
-  
 - 🧿Componente Counter MultiButtons
 
 #### Día 3 - Miércoles 26/11/2026 (3 horas)
@@ -100,9 +102,10 @@ Avanzado
 
   - 🧿Componente RegisterForm (no controlado)
 
-<!-- 
+#### Día 4 - Jueves 25/11/2026 (3 horas)
 
 - Formularios no controlados (continuación)
+
   - Abstracción de lógica: funciones tools
   - 👁️‍🗨️Tests de formularios
 
@@ -113,15 +116,19 @@ Avanzado
   - Promesas: then v. async/await
     - ⚙️Servicio getData basado en promesas
     - 👁️‍🗨️Test del servicio
-  - 🧿Componente Search con promesas
-    - Consumo del servicio getData -->
 
-<!-- #### Día 4 - Jueves 25/11/2026 (3 horas)
+[descanso] : 17:05 - 17:20
 
-- 🧿Componente Search con promesas (continuación)
+- 🧿Componente Search con promesas
+  - Consumo del servicio getData
   - 👁️‍🗨️Test del componente
 - 🧿Componente Search optimizado con debounce (promesas)
-  - 👁️‍🗨️Test del componente
+  - 👁️‍🗨️Test del componente (comentar)
+
+<!-- ### Semana 2 -->
+
+<!--#### Día 5 - Lunes 01/12/2026 (3:45 horas)
+
 - 🧿Componente con cancelación de peticiones (promesas)
   - 👁️‍🗨️Test del componente
 - Conceptos de programación reactiva
@@ -144,9 +151,7 @@ Avanzado
   - Observables
   - Tipos: cold v. hot -->
 
-<!-- ### Semana 2
-
-#### Día 5 - Lunes 01/12/2026 (3:45 horas)
+<!-- #### Día 6 - Martes 02/12/2026 (3:45 horas)
 
 - Proyecto TS-Rx
 - Observable cold. Suscripciones
@@ -185,7 +190,7 @@ Avanzado
     - interval: creación del observable
     - useEffect y suscripciones: actualización del estado -->
 
-<!-- #### Día 6 - Martes 02/12/2026 (3:45 horas)
+<!-- #### Día 7 - Miércoles 03/12/2026 (3:45 horas)
 
 - Desuscripción
 
@@ -206,7 +211,7 @@ Avanzado
 - Conditional Types
 - Utility Types -->
 
-<!-- #### Día 7 - Miércoles 03/12/2026 (3:45 horas)
+<!-- #### Día 8 - Jueves 04/12/2026 (3:45 horas)
 
 - Terminar Utility Types
 - Comentar 🧿Componente User uniones v. condicionales
@@ -229,7 +234,9 @@ Avanzado
     - ⚙️useObservable.v3 + useSubscription
     - 👁️‍🗨️Test de los componentes -> test de los hooks -->
 
-<!-- #### Día 8 - Jueves 04/12/2026 (3:45 horas)
+<!-- ### Semana 3 -->
+
+<!-- #### Día 9 - Martes 09/12/2026 (3:45 horas)
 
 - Hooks Personalizados y RxJS (continuación)
   - Componente y multiples estados: 🧿UserLogged -> ⚙️useUserLogged
@@ -251,9 +258,7 @@ Avanzado
   - Constantes Observables
   - Observables de Orden Superior (Higher-Order Observables) -->
 
-<!-- ### Semana 3
-
-#### Día 9 - Martes 09/12/2026 (3:45 horas)
+<!-- #### Día 10 - Miércoles 10/12/2026 (3:45 horas)
 
 - Observables de Orden Superior (Higher-Order Observables)
   - 🧿Componente Fibonacci v.2
@@ -277,7 +282,7 @@ Avanzado
     - ajax
     - fromFetch (más actual) -->
 
-<!-- #### Día 10 - Miércoles 10/12/2026 (3:45 horas)
+<!-- #### Día 11 - Jueves 11/12/2026 (3:45 horas)
 
 - Http Client
   - ⚙️Servicio genérico dataFetch
@@ -296,7 +301,9 @@ Avanzado
 - Test de servicios HTTPClient
   - 👁️‍🗨️Test del servicio fetchService (generico) -->
 
-<!-- #### Día 11 - Jueves 11/12/2026 (3:45 horas)
+<!-- ### Semana 4 -->
+
+<!-- #### Día 12 - Lunes 15/12/2026 (3:45 horas)
 
 - Http Client (continuación)
 
@@ -322,9 +329,7 @@ Avanzado
       - ⚙️Servicios getByUrl y searchPokemon
       - 🧿Componente SearchPokemon -->
 
-<!--### Semana 3
-
- #### Día 12 - Lunes 15/12/2026 (3:45 horas)
+<!-- #### Día 13 - Martes 16/12/2026 (3 horas)
 
     - Flujos de datos en múltiples componentes
       - ⚙️SubjectManager: servicio para compartir flujos
@@ -357,8 +362,6 @@ Avanzado
     - ⚙️State Manager Service
     - 🧿Componente Notes con State Manager Service
     - 🧿Componente AddNotes con State Manager Service
-
-#### Día 13 - Martes 16/12/2026 (3 horas)
 
 Comentar lo abarcado de los módulos siguientes:
 
