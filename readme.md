@@ -8,6 +8,8 @@
       - [Día 2 - Martes 25/11/2026 (3 horas)](#día-2---martes-25112026-3-horas)
       - [Día 3 - Miércoles 26/11/2026 (3 horas)](#día-3---miércoles-26112026-3-horas)
       - [Día 4 - Jueves 25/11/2026 (3 horas)](#día-4---jueves-25112026-3-horas)
+    - [Semana 2](#semana-2)
+      - [Día 5 - Lunes 01/12/2026 (3:45 horas)](#día-5---lunes-01122026-345-horas)
 
 DURACIÓN: 45 horas
 
@@ -125,9 +127,9 @@ Avanzado
 - 🧿Componente Search optimizado con debounce (promesas)
   - 👁️‍🗨️Test del componente (comentar)
 
-<!-- ### Semana 2 -->
+### Semana 2
 
-<!--#### Día 5 - Lunes 01/12/2026 (3:45 horas)
+#### Día 5 - Lunes 01/12/2026 (3:45 horas)
 
 - 🧿Componente con cancelación de peticiones (promesas)
   - 👁️‍🗨️Test del componente
@@ -136,12 +138,12 @@ Avanzado
 - Patrones de diseño reactivos
   - Introducción
   - Iterator
+  - Iterator: implementación en TypeScript y JS
 
-[descanso]
+[descanso] 16:30 - 16:45
 
 - Patrones de diseño reactivos (continuación)
 
-  - Iterator: implementación en TypeScript y JS
   - Pub/Sub (Observer)
   - Implementación de Pub/Sub en TypeScript: Event manager
   - Ventajas de Pub/Sub
@@ -149,11 +151,11 @@ Avanzado
 
 - Introducción a RxJS
   - Observables
-  - Tipos: cold v. hot -->
+  - Tipos: cold v. hot
+- Instalación de RxJs en el proyecto demo1-TS
 
 <!-- #### Día 6 - Martes 02/12/2026 (3:45 horas)
 
-- Proyecto TS-Rx
 - Observable cold. Suscripciones
   - observers: next, error, complete
   - Unicast
