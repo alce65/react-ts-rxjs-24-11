@@ -14,6 +14,8 @@ export const Search: React.FC = () => {
         const searchUrl = URL + `?q=${value}`;
         getData<Product>(searchUrl).then((data) => {
             setResults(data);
+        }).catch((error: Error) => {
+            console.error('Error fetching data:', error.message);
         });
     };
 
