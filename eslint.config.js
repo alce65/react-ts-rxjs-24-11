@@ -9,6 +9,10 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 export default defineConfig([
     globalIgnores(['dist']),
     {
+        languageOptions: {
+            ecmaVersion: 2020,
+            globals: globals.browser,
+        },
         files: ['**/*.{ts,tsx}'],
         extends: [
             js.configs.recommended,
@@ -19,10 +23,6 @@ export default defineConfig([
         ],
         plugins: {
             react
-        },
-        languageOptions: {
-            ecmaVersion: 2020,
-            globals: globals.browser,
         },
         rules: {
             ...reactHooks.configs.recommended.rules,
