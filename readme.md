@@ -10,6 +10,7 @@
       - [Día 4 - Jueves 25/11/2026 (3 horas)](#día-4---jueves-25112026-3-horas)
     - [Semana 2](#semana-2)
       - [Día 5 - Lunes 01/12/2026 (3:45 horas)](#día-5---lunes-01122026-345-horas)
+      - [Día 6 - Martes 02/12/2026 (3:45 horas)](#día-6---martes-02122026-345-horas)
 
 DURACIÓN: 45 horas
 
@@ -154,7 +155,7 @@ Avanzado
   - Tipos: cold v. hot
 - Instalación de RxJs en el proyecto demo1-TS
 
-<!-- #### Día 6 - Martes 02/12/2026 (3:45 horas)
+#### Día 6 - Martes 02/12/2026 (3:45 horas)
 
 - Observable cold. Suscripciones
   - observers: next, error, complete
@@ -170,11 +171,15 @@ Avanzado
   - AsyncSubject
 
 - Creación de observables: Operadores de creación
-  - of, from
+  - from
   - fromEvent
-  - interval, timer
 
 [descanso] 16:30 - 16:50
+
+- Creación de observables: Operadores de creación (continuación)
+
+  - of
+  - interval, timer
 
 - Operadores (Comentar Lista).
 - Observables RxJS en componentes de react
@@ -184,15 +189,15 @@ Avanzado
     - useState: creación del estado
     - useEffect y suscripciones: actualización del estado
     - uso de useMemo
-  - Observables y eventos: 🧿ClickCounter
-    - fromEvent: creación del observable
-    - useEffect y suscripciones: actualización del estado
-    - operadores de RxJS: map, scan..
+  - Observables y eventos: 🧿ClickCounter - fromEvent: creación del observable - useEffect y suscripciones: actualización del estado - operadores de RxJS: map, scan..
+  
+<!--
+
   - Observables e intervalos: 🧿IntervalCounter
     - interval: creación del observable
-    - useEffect y suscripciones: actualización del estado -->
+    - useEffect y suscripciones: actualización del estado 
 
-<!-- #### Día 7 - Miércoles 03/12/2026 (3:45 horas)
+#### Día 7 - Miércoles 03/12/2026 (3:45 horas)
 
 - Desuscripción
 
@@ -211,7 +216,9 @@ Avanzado
 - Genéricos en React. 🧿Componente List genérico
 - Mapped Types
 - Conditional Types
-- Utility Types -->
+- Utility Types  
+
+-->
 
 <!-- #### Día 8 - Jueves 04/12/2026 (3:45 horas)
 
