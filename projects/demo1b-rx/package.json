@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint . --ignore-pattern coverage/* ", 
+    "lint": "eslint . --ignore-pattern coverage/* ",
     "preview": "vite preview",
     "test": "vitest",
     "test:c": "vitest run --coverage"
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
