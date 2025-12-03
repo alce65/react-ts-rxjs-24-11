@@ -11,6 +11,7 @@
     - [Semana 2](#semana-2)
       - [Día 5 - Lunes 01/12/2026 (3:45 horas)](#día-5---lunes-01122026-345-horas)
       - [Día 6 - Martes 02/12/2026 (3:45 horas)](#día-6---martes-02122026-345-horas)
+      - [Día 7 - Miércoles 03/12/2026 (3:45 horas)](#día-7---miércoles-03122026-345-horas)
 
 DURACIÓN: 45 horas
 
@@ -182,20 +183,23 @@ Avanzado
   - interval, timer
 
 - Operadores (Comentar Lista).
-- Observables RxJS en componentes de react
+- Observables RxJS en componentes de React
 
   - Proyecto React + TS + RxJS + Vite
   - Observables y estado: 🧿ListNames
     - useState: creación del estado
     - useEffect y suscripciones: actualización del estado
     - uso de useMemo
-  - Observables y eventos: 🧿ClickCounter - fromEvent: creación del observable - useEffect y suscripciones: actualización del estado - operadores de RxJS: map, scan..
-  
-<!--
+  - Observables y eventos: 🧿ClickCounter
+    - fromEvent: creación del observable
+    - useEffect y suscripciones: actualización del estado
+    - operadores de RxJS: map, scan..
+
 
   - Observables e intervalos: 🧿IntervalCounter
     - interval: creación del observable
-    - useEffect y suscripciones: actualización del estado 
+    - useEffect y suscripciones: actualización del estado
+  - 👁️‍🗨️Test de los componentes -
 
 #### Día 7 - Miércoles 03/12/2026 (3:45 horas)
 
@@ -207,22 +211,25 @@ Avanzado
 
 - Typescript avanzado. Tipos en React (comentarios)
 - Genéricos. Restricciones con Extend
+
+[descanso] 16:20 - 16:35
+
+- Genéricos en React. 🧿Componente List genérico
+  - Genéticos en interfaces (o tipos)
+  - Genéricos. Restricciones con Extend
+
 - Manipulación de tipos
   - keyof & typeof
   - Indexed Access Types
 
-[descanso] 16:20 - 16:45
 
-- Genéricos en React. 🧿Componente List genérico
-- Mapped Types
-- Conditional Types
-- Utility Types  
+<!--
+  - Mapped Types
+  - Conditional Types
+ 
+#### Día 8 - Jueves 04/12/2026 (3:45 horas)
 
--->
-
-<!-- #### Día 8 - Jueves 04/12/2026 (3:45 horas)
-
-- Terminar Utility Types
+- Utility Types
 - Comentar 🧿Componente User uniones v. condicionales
 - TypeScript y asincronía. Manejo de errores
 
@@ -238,7 +245,7 @@ Avanzado
   - 🧿Componente Lista (datos, asincronía)->
     - ⚙️useObservable.v1
     - ⚙️useObservable.v2 + useSubscription
-    - 👁️‍🗨️Test de los componentes -> test de los hookscd
+    - 👁️‍🗨️Test de los componentes -> test de los hooks
   - 🧿Componente ClicksCounter (Eventos) ->
     - ⚙️useObservable.v3 + useSubscription
     - 👁️‍🗨️Test de los componentes -> test de los hooks -->
