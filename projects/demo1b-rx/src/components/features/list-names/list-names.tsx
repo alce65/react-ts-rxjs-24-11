@@ -1,14 +1,14 @@
 import { Card } from '@components/core/card/card';
 import { useEffect, useState } from 'react';
 import { Observable, of } from 'rxjs';
-import './list-names.css'
+import { List } from '@components/core/list/list';
 
 const NAMES = ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve', 'Frank'];
 const NAMES$ = of(NAMES);
 
 type Props = {
     names$?: Observable<string[]>;
-}
+};
 
 export const ListNames: React.FC<Props> = ({ names$ = NAMES$ }) => {
     const [names, setNames] = useState<string[]>([]);
@@ -20,7 +20,7 @@ export const ListNames: React.FC<Props> = ({ names$ = NAMES$ }) => {
 
         const subscription = names$.subscribe(setNames);
 
-        console.log('Ejecutando useEffect')
+        console.log('Ejecutando useEffect');
 
         return (): void => {
             subscription.unsubscribe();
@@ -30,11 +30,12 @@ export const ListNames: React.FC<Props> = ({ names$ = NAMES$ }) => {
     return (
         <Card title="Lista de nombres">
             <div>
-                <ul>
+                {/* <ul>
                     {names.map((name, index) => (
                         <li key={index}>{name}</li>
                     ))}
-                </ul>
+                </ul> */}
+                <List items={names} />
             </div>
         </Card>
     );

@@ -1,7 +1,7 @@
 import { Card } from '@components/core/card/card';
+import { List } from '@components/core/list/list';
 import { useEffect, useRef, useState } from 'react';
 import { of } from 'rxjs';
-import './list-names.css';
 
 const NAMES_EXTERNAL = ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve', 'Frank'];
 
@@ -45,11 +45,7 @@ export const ListNamesSemiIntra: React.FC<Props> = ({
     return (
         <Card title="Lista de nombres">
             <div>
-                <ul>
-                    {names.map((name, index) => (
-                        <li key={index}>{name}</li>
-                    ))}
-                </ul>
+                <List items={names} />
             </div>
         </Card>
     );
@@ -84,11 +80,7 @@ export const ListNamesIntra: React.FC<Props> = ({
     return (
         <Card title="Lista de nombres">
             <div>
-                <ul>
-                    {names.map((name, index) => (
-                        <li key={index}>{name}</li>
-                    ))}
-                </ul>
+                <List items={names} />
             </div>
         </Card>
     );
