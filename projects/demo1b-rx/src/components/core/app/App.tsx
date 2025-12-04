@@ -5,6 +5,7 @@ import { ListNamesIntra } from '@components/features/list-names/list-names-intra
 import { Counter } from '@components/features/counter/counter';
 import { IntervalCounter1 } from '@components/features/interval-counter/interval-counter';
 import { IntervalCounter2 } from '@components/features/interval-counter2/interval-counter2';
+import { User } from '@components/features/ts-types/user';
 
 export const App: React.FC = () => {
     const title = 'Vite + TS + React';
@@ -17,6 +18,7 @@ export const App: React.FC = () => {
                 <Counter />
                 <IntervalCounter1 />
                 <IntervalCounter2 />
+                <User />
             </main>
         </Layout>
     );
