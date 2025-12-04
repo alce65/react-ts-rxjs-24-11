@@ -9,9 +9,10 @@
       - [Día 3 - Miércoles 26/11/2026 (3 horas)](#día-3---miércoles-26112026-3-horas)
       - [Día 4 - Jueves 25/11/2026 (3 horas)](#día-4---jueves-25112026-3-horas)
     - [Semana 2](#semana-2)
-      - [Día 5 - Lunes 01/12/2026 (3:45 horas)](#día-5---lunes-01122026-345-horas)
-      - [Día 6 - Martes 02/12/2026 (3:45 horas)](#día-6---martes-02122026-345-horas)
-      - [Día 7 - Miércoles 03/12/2026 (3:45 horas)](#día-7---miércoles-03122026-345-horas)
+      - [Día 5 - Lunes 01/12/2026 (3-45 horas)](#día-5---lunes-01122026-3-45-horas)
+      - [Día 6 - Martes 02/12/2026 (3-45 horas)](#día-6---martes-02122026-3-45-horas)
+      - [Día 7 - Miércoles 03/12/2026 (3-45 horas)](#día-7---miércoles-03122026-3-45-horas)
+      - [Día 8 - Jueves 04/12/2026 (3-45 horas)](#día-8---jueves-04122026-3-45-horas)
 
 DURACIÓN: 45 horas
 
@@ -131,7 +132,7 @@ Avanzado
 
 ### Semana 2
 
-#### Día 5 - Lunes 01/12/2026 (3:45 horas)
+#### Día 5 - Lunes 01/12/2026 (3-45 horas)
 
 - 🧿Componente con cancelación de peticiones (promesas)
   - 👁️‍🗨️Test del componente
@@ -156,7 +157,7 @@ Avanzado
   - Tipos: cold v. hot
 - Instalación de RxJs en el proyecto demo1-TS
 
-#### Día 6 - Martes 02/12/2026 (3:45 horas)
+#### Día 6 - Martes 02/12/2026 (3-45 horas)
 
 - Observable cold. Suscripciones
   - observers: next, error, complete
@@ -194,14 +195,12 @@ Avanzado
     - fromEvent: creación del observable
     - useEffect y suscripciones: actualización del estado
     - operadores de RxJS: map, scan..
-
-
   - Observables e intervalos: 🧿IntervalCounter
     - interval: creación del observable
     - useEffect y suscripciones: actualización del estado
   - 👁️‍🗨️Test de los componentes -
 
-#### Día 7 - Miércoles 03/12/2026 (3:45 horas)
+#### Día 7 - Miércoles 03/12/2026 (3-45 horas)
 
 - Desuscripción
 
@@ -214,20 +213,22 @@ Avanzado
 
 [descanso] 16:20 - 16:35
 
-- Genéricos en React. 🧿Componente List genérico
+- Genéricos en React. 🧿Componente List reutilizable
+
   - Genéticos en interfaces (o tipos)
   - Genéricos. Restricciones con Extend
 
 - Manipulación de tipos
   - keyof & typeof
   - Indexed Access Types
-
-
-<!--
-  - Mapped Types
   - Conditional Types
- 
-#### Día 8 - Jueves 04/12/2026 (3:45 horas)
+
+#### Día 8 - Jueves 04/12/2026 (3-45 horas)
+
+- Manipulación de tipos (continuación)
+
+  - Mapped Types
+  - Ejemplo en React: uniones v. condicionales
 
 - Utility Types
 - Comentar 🧿Componente User uniones v. condicionales
@@ -236,6 +237,9 @@ Avanzado
   - Promesas con TS
   - Observables con TS
 
+[descanso] 16:05 - 16:20
+
+- Nuevo proyecto: demo3.rx: React + TS + RxJS + Vite
 - Hooks Personalizados y RxJS
   - Introducción. Tipado de hooks personalizados
     - ⚙️useToggle
@@ -248,12 +252,16 @@ Avanzado
     - 👁️‍🗨️Test de los componentes -> test de los hooks
   - 🧿Componente ClicksCounter (Eventos) ->
     - ⚙️useObservable.v3 + useSubscription
-    - 👁️‍🗨️Test de los componentes -> test de los hooks -->
 
 <!-- ### Semana 3 -->
 
-<!-- #### Día 9 - Martes 09/12/2026 (3:45 horas)
+<!-- #### Día 9 - Martes 09/12/2026 (3-45 horas)
 
+ - 🧿Componente ClicksCounter (Eventos) ->
+    - Corregir errores (memoización)
+    - 👁️‍🗨️Test de los componentes -> test de los hooks -->
+
+<!--
 - Hooks Personalizados y RxJS (continuación)
   - Componente y multiples estados: 🧿UserLogged -> ⚙️useUserLogged
   - Single Component Hook
@@ -274,7 +282,7 @@ Avanzado
   - Constantes Observables
   - Observables de Orden Superior (Higher-Order Observables) -->
 
-<!-- #### Día 10 - Miércoles 10/12/2026 (3:45 horas)
+<!-- #### Día 10 - Miércoles 10/12/2026 (3-45 horas)
 
 - Observables de Orden Superior (Higher-Order Observables)
   - 🧿Componente Fibonacci v.2
@@ -319,7 +327,7 @@ Avanzado
 
 <!-- ### Semana 4 -->
 
-<!-- #### Día 12 - Lunes 15/12/2026 (3:45 horas)
+<!-- #### Día 12 - Lunes 15/12/2026 (3-45 horas)
 
 - Http Client (continuación)
 
