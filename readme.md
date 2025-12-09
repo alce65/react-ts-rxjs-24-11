@@ -13,6 +13,8 @@
       - [Día 6 - Martes 02/12/2026 (3-45 horas)](#día-6---martes-02122026-3-45-horas)
       - [Día 7 - Miércoles 03/12/2026 (3-45 horas)](#día-7---miércoles-03122026-3-45-horas)
       - [Día 8 - Jueves 04/12/2026 (3-45 horas)](#día-8---jueves-04122026-3-45-horas)
+    - [Semana 3](#semana-3)
+      - [Día 9 - Martes 09/12/2026 (3-45 horas)](#día-9---martes-09122026-3-45-horas)
 
 DURACIÓN: 45 horas
 
@@ -228,10 +230,9 @@ Avanzado
 - Manipulación de tipos (continuación)
 
   - Mapped Types
-  - Ejemplo en React: uniones v. condicionales
+  - Comentar 🧿Componente User uniones v. condicionales
 
 - Utility Types
-- Comentar 🧿Componente User uniones v. condicionales
 - TypeScript y asincronía. Manejo de errores
 
   - Promesas con TS
@@ -253,15 +254,16 @@ Avanzado
   - 🧿Componente ClicksCounter (Eventos) ->
     - ⚙️useObservable.v3 + useSubscription
 
-<!-- ### Semana 3 -->
+### Semana 3
 
-<!-- #### Día 9 - Martes 09/12/2026 (3-45 horas)
+#### Día 9 - Martes 09/12/2026 (3-45 horas)
 
- - 🧿Componente ClicksCounter (Eventos) ->
-    - Corregir errores (memoización)
-    - 👁️‍🗨️Test de los componentes -> test de los hooks -->
+- Creación de hooks personalizados con RxJS (continuación)
+- 🧿Componente ClicksCounter (Eventos) ->
 
-<!--
+  - Corregir errores (memoización)
+  - 👁️‍🗨️Test de los componentes -> test de los hooks
+
 - Hooks Personalizados y RxJS (continuación)
   - Componente y multiples estados: 🧿UserLogged -> ⚙️useUserLogged
   - Single Component Hook
@@ -269,8 +271,9 @@ Avanzado
   - Debounces y Throttles
     - 🧿Componente Fibonacci-items: take, takeWhile, debounceTime
 
-[descanso] 16:20 - 16:40
+[descanso] 16:15 - 16:35
 
+<!--
 - Integración y operaciones con Observables en componentes React (continuación)
 
   - 🧿Componente Fibonacci (continuación)
