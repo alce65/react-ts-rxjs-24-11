@@ -7,6 +7,8 @@ import { UserLogged } from '@components/features/components/user-logged/user-log
 import { Fibonacci } from '@components/features/fibonacci/fibonacci/fibonacci';
 import { GetData } from '@components/features/get-data/get-data';
 import { GetDataMerge } from '@components/features/get-data/get-data-merge';
+import { IntervalCounter3 } from '@components/features/interval-counter/interval-counter3';
+import { IntervalCounter4 } from '@components/features/interval-counter/interval-counter4';
 
 const NAMES = ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve', 'Frank'];
 const NAMES$ = of(NAMES);
@@ -23,6 +25,8 @@ export const App: React.FC = () => {
                 <Fibonacci />
                 <GetData />
                 <GetDataMerge />
+                <IntervalCounter3 />
+                <IntervalCounter4 />
             </main>
         </Layout>
     );
