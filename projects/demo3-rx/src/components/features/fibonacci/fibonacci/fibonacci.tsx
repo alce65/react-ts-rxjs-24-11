@@ -1,10 +1,9 @@
-
-import { FibonacciItems } from '../fibonacci-items/fibonacci-items';
 import { Card } from '@components/core/card/card';
 import './fibonacci.css';
 import { fromEvent, map, Observable } from 'rxjs';
 import { useObservableV3 } from '@components/features/hooks/rx/use-observable-v3';
 import { useRef } from 'react';
+import { FibonacciItems2 } from '../fibonacci-items/fibonacci-items.v2';
 
 export type TypeOfLimits = 'limit' | 'numbers';
 
@@ -56,7 +55,7 @@ export const Fibonacci: React.FC = () => {
                     Generate by limit value
                 </label>
             </div>
-            <FibonacciItems typeLimit={typeLimit} />
+            <FibonacciItems2 typeLimit={typeLimit} />
         </Card>
     );
 };
