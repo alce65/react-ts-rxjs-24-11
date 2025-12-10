@@ -49,12 +49,12 @@ export const FibonacciItems: React.FC<Props> = ({ typeLimit }) => {
         resetData();
 
         const events$ = fromEvent<Event>(refInput.current, 'input').pipe(
+            debounceTime(500),
             map((event) => {
                 const element = event.target as HTMLInputElement;
                 const value = Number(element.value);
                 return isNaN(value) ? 0 : value;
             }),
-            debounceTime(500),
             tap((num: number) => console.log('TAP', num)),
             distinctUntilChanged()
         );
@@ -95,7 +95,10 @@ export const FibonacciItems: React.FC<Props> = ({ typeLimit }) => {
                 placeholder="Numero de valores"
                 ref={refInput}
             />
-            <p>Fibonacci value: {(data as number[]).join(', ')}</p>
+            <p>
+                Fibonacci value:
+                <output>{(data as number[]).join(', ')}</output>
+            </p>
         </>
     );
 };
