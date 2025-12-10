@@ -15,6 +15,7 @@
       - [Día 8 - Jueves 04/12/2026 (3-45 horas)](#día-8---jueves-04122026-3-45-horas)
     - [Semana 3](#semana-3)
       - [Día 9 - Martes 09/12/2026 (3-45 horas)](#día-9---martes-09122026-3-45-horas)
+      - [Día 10 - Miércoles 10/12/2026 (3-45 horas)](#día-10---miércoles-10122026-3-45-horas)
 
 DURACIÓN: 45 horas
 
@@ -273,43 +274,44 @@ Avanzado
 
 [descanso] 16:15 - 16:35
 
-<!--
 - Integración y operaciones con Observables en componentes React (continuación)
 
   - 🧿Componente Fibonacci (continuación)
-
     - Radio buttons en el componente padre
     - useMemo y useCallback en el componente
 
+#### Día 10 - Miércoles 10/12/2026 (3-45 horas)
+
+- Integración y operaciones con Observables en componentes React (continuación)
+
+  - 👁️‍🗨️Test del componente Fibonacci
   - Combinación de observables
   - Constantes Observables
-  - Observables de Orden Superior (Higher-Order Observables) -->
-
-<!-- #### Día 10 - Miércoles 10/12/2026 (3-45 horas)
+  - Observables de Orden Superior (Higher-Order Observables)
 
 - Observables de Orden Superior (Higher-Order Observables)
   - 🧿Componente Fibonacci v.2
-    - 👁️‍🗨️Test del componente Fibonacci
   - 🧿Componente GetData: MergeMap v. SwitchMap
-    - 👁️‍🗨️Test del componente GetData
-  - 🧿Componente IntervalCounter3 (2 botones con switchMap)
 
 [descanso] 16:40 - 17:00
 
 - Observables de Orden Superior (Higher-Order Observables) (continuación)
-
+  - 🧿Componente IntervalCounter3 (2 botones con switchMap)
   - 👁️‍🗨️Test del componente IntervalCounter3 (2 botones con switchMap)
   - 🧿Componente IntervalCounter4 (3 botones con switchMap)
-    - 👁️‍🗨️Test del componente IntervalCounter4 (3 botones con switchMap)
 
-- Http Client (introducción)
+<!-- #### Día 11 - Jueves 11/12/2026 (3:45 horas)
+
+- Review: tests
+  - 👁️‍🗨️Test del componente GetData
+  - 👁️‍🗨️Test del componente IntervalCounter4 (3 botones con switchMap)
+
+ Http Client (introducción)
   - nuevo proyecto TS-Rx-HttpClient: demo4
   - promesas en fetch
   - Peticiones HTTP con RxJS
     - ajax
-    - fromFetch (más actual) -->
-
-<!-- #### Día 11 - Jueves 11/12/2026 (3:45 horas)
+    - fromFetch (más actual)
 
 - Http Client
   - ⚙️Servicio genérico dataFetch
