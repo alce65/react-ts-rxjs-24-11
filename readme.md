@@ -16,6 +16,7 @@
     - [Semana 3](#semana-3)
       - [Día 9 - Martes 09/12/2026 (3-45 horas)](#día-9---martes-09122026-3-45-horas)
       - [Día 10 - Miércoles 10/12/2026 (3-45 horas)](#día-10---miércoles-10122026-3-45-horas)
+      - [Día 11 - Jueves 11/12/2026 (3-45 horas)](#día-11---jueves-11122026-3-45-horas)
 
 DURACIÓN: 45 horas
 
@@ -300,35 +301,34 @@ Avanzado
   - 👁️‍🗨️Test del componente IntervalCounter3 (2 botones con switchMap)
   - 🧿Componente IntervalCounter4 (3 botones con switchMap)
 
-<!-- #### Día 11 - Jueves 11/12/2026 (3:45 horas)
+#### Día 11 - Jueves 11/12/2026 (3-45 horas)
 
 - Review: tests
   - 👁️‍🗨️Test del componente GetData
   - 👁️‍🗨️Test del componente IntervalCounter4 (3 botones con switchMap)
 
- Http Client (introducción)
-  - nuevo proyecto TS-Rx-HttpClient: demo4
-  - promesas en fetch
-  - Peticiones HTTP con RxJS
-    - ajax
-    - fromFetch (más actual)
+Http Client (introducción)
+
+- nuevo proyecto TS-Rx-HttpClient: demo4
+- promesas en fetch
+- Peticiones HTTP con RxJS
+
+  - ajax
+  - fromFetch (más actual)
 
 - Http Client
   - ⚙️Servicio genérico dataFetch
-    - operadores fromFetch y switchMap, tipado, errores
-  - ⚙️Servicio específico userDataFetch
-  - 🧿Componente GetUserData
+    - operadores fromFetch y switchMap, tipado
+    - errores
 
 [descanso] 16:20 - 16:40
 
-- 🧿Componente GetUserButton
+- ⚙️Servicio específico userDataFetch
+- 🧿Componente GetUser (by button)
 
 - Manejo de API desde un input de búsqueda
-  - 🧿 Componente ReadInput
+  - 🧿Componente ReadInput
   - ⚙️Servicio SearchCountries
-  - 🧿Componente SearchCountries
-- Test de servicios HTTPClient
-  - 👁️‍🗨️Test del servicio fetchService (generico) -->
 
 <!-- ### Semana 4 -->
 
@@ -336,11 +336,16 @@ Avanzado
 
 - Http Client (continuación)
 
+- Manejo de API desde un input de búsqueda (continuación)
+  - 🧿Componente SearchCountries
+
+- Test de servicios HTTPClient
+
   - Test de servicios HTTPClient (continuación)
-    - 👁️‍🗨️Test del servicio fetchTodoService (específico)
+    - 👁️‍🗨️Test del servicio fetchService (generico)
+    - 👁️‍🗨️Test del servicio fetchUserService (específico)
   - Test componentes que usan servicios HTTPClient
-    - 👁️‍🗨️Test del componente GetUserData
-    - 👁️‍🗨️Test del componente GetUserButton
+    - 👁️‍🗨️Test del componente GetUser (by button)
     - 👁️‍🗨️Test del componente SearchCountries
 
 - Creación de flujos de datos reactivos con RxJS: Hot Observables
@@ -356,19 +361,14 @@ Avanzado
     - [Opción: useReducerRx (Sin desarrollar info, solo el código)]
     - Combinación de flujos y operadores complejos
       - ⚙️Servicios getByUrl y searchPokemon
-      - 🧿Componente SearchPokemon -->
+      - 🧿Componente SearchPokemon  
+  -->
 
 <!-- #### Día 13 - Martes 16/12/2026 (3 horas)
 
     - Flujos de datos en múltiples componentes
       - ⚙️SubjectManager: servicio para compartir flujos
       - 🧿DemoPage con componentes que com8parten flujos -->
-
-<!--
-  [Opción no incluida - desde proyecto proof]
-  - Wether converter (uso de BehaviorSubject v. Subject)
-  - Weather series (uso de ReplaySubject)
--->
 
 <!-- [descanso] 16:13 - 16:30
 
