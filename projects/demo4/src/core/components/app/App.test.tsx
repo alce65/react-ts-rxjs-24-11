@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import { App } from "./App";
-import {Layout} from '@components/core/layout/layout';
+import {Layout} from '../layout/layout';
 
 vi.mock('@components/core/layout/layout');
 
