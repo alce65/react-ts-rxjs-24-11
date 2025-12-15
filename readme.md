@@ -17,6 +17,8 @@
       - [Día 9 - Martes 09/12/2026 (3-45 horas)](#día-9---martes-09122026-3-45-horas)
       - [Día 10 - Miércoles 10/12/2026 (3-45 horas)](#día-10---miércoles-10122026-3-45-horas)
       - [Día 11 - Jueves 11/12/2026 (3-45 horas)](#día-11---jueves-11122026-3-45-horas)
+    - [Semana 4](#semana-4)
+      - [Día 12 - Lunes 15/12/2026 (3-45 horas)](#día-12---lunes-15122026-3-45-horas)
 
 DURACIÓN: 45 horas
 
@@ -330,13 +332,14 @@ Http Client (introducción)
   - 🧿Componente ReadInput
   - ⚙️Servicio SearchCountries
 
-<!-- ### Semana 4 -->
+### Semana 4
 
-<!-- #### Día 12 - Lunes 15/12/2026 (3-45 horas)
+#### Día 12 - Lunes 15/12/2026 (3-45 horas)
 
 - Http Client (continuación)
 
 - Manejo de API desde un input de búsqueda (continuación)
+
   - 🧿Componente SearchCountries
 
 - Test de servicios HTTPClient
@@ -352,7 +355,7 @@ Http Client (introducción)
   - Concepto de Hot Observables
   - 🧿Componente ClicksCounter (con un Subject): Eventos y Subjects
 
-[descanso] 16:17 - 16:35
+[descanso] 16:35 - 16:55
 
     - Acciones con Subjects: patrón Flux
       - 🧿Componente Counter3Buttons
@@ -361,8 +364,7 @@ Http Client (introducción)
     - [Opción: useReducerRx (Sin desarrollar info, solo el código)]
     - Combinación de flujos y operadores complejos
       - ⚙️Servicios getByUrl y searchPokemon
-      - 🧿Componente SearchPokemon  
-  -->
+      - 🧿Componente SearchPokemon
 
 <!-- #### Día 13 - Martes 16/12/2026 (3 horas)
 
