@@ -4,6 +4,8 @@ import { GetUser } from '../../../features/user/components/get-users/get-users';
 import { Form } from '../../../features/form/form';
 import { SearchCountry } from '../../../features/countries/components/search-countries/search-country';
 import { Counter } from '../../../features/subjects/counter/counter';
+import { CounterButtons } from '../../../features/subjects/counter5-3-buttons/counter-3-buttons';
+import { PokePage } from '../../../features/pokemons/poke-page';
 
 export const App: React.FC = () => {
     const title = 'Vite + TS + React';
@@ -15,6 +17,8 @@ export const App: React.FC = () => {
                 <Form />
                 <SearchCountry />
                 <Counter />
+                <CounterButtons />
+                <PokePage />
             </main>
         </Layout>
     );
