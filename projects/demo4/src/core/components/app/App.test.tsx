@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import { App } from "./App";
 import {Layout} from '../layout/layout';
 
-vi.mock('@components/core/layout/layout');
+vi.mock('../layout/layout');
 
 describe('App', () => {
   test('renders correctly', () => {
