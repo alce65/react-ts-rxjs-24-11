@@ -5,7 +5,7 @@ import type { Country } from "../types/country";
 
 const URL_BASE = 'https://restcountries.com/v3.1';
 const URL = URL_BASE + '/name';
-const apiOptions = '  ?fields=name,capital';
+const apiOptions = '?fields=name,capital';
 
 // export const getAllUsers = fetchDataV2<User[]>(urlAPI)
 

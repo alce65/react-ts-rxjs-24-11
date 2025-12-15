@@ -4,7 +4,12 @@ import type { User } from "../types/user"
 
 const urlAPI = 'https://jsonplaceholder.typicode.com/users'
 
-export const getAllUsers = fetchDataV2<User[]>(urlAPI)
+export const getAllUsers = (): Observable<User[]>   => {
+    return fetchDataV2<User[]>(urlAPI)()
+}
+
+// Pare igual pero no pasa el test?
+// export const getAllUsers = fetchDataV2<User[]>(urlAPI)
 
 export const getUserById = (id: User['id']): Observable<User> => {
     const url = urlAPI + '/' + id

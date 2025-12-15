@@ -3,14 +3,21 @@ import { Card } from '../../../../core/components/card/card';
 import { List } from '../../../../core/components/list/list';
 import { useObservableV3 } from '../../../../core/hooks/use-observable-v3';
 import type { Country } from '../../types/country';
-import { of} from 'rxjs';
+import {
+    debounceTime,
+    distinctUntilChanged,
+    exhaustMap,
+    fromEvent,
+    map,
+    Observable,
+    tap,
+} from 'rxjs';
+import { searchCountries } from '../../services/countries-fetch';
 
-const source$ = of([])
-const EMPTY_ARRAY: Country[] = []
+const EMPTY_ARRAY: Country[] = [];
 
 export const SearchCountry: React.FC = () => {
     const inputRef = useRef<HTMLInputElement | null>(null);
-    const [data, error] = useObservableV3<Country[]>(source$, EMPTY_ARRAY);
 
     const renderItem = (country: Country): React.ReactNode => (
         <>
@@ -20,6 +27,26 @@ export const SearchCountry: React.FC = () => {
             <small>{country.name.official}</small>
         </>
     );
+
+    const factory = (): Observable<Country[]> => {
+        const input = inputRef.current as HTMLInputElement;
+
+        return fromEvent<React.ChangeEvent<HTMLInputElement>>(input, 'input')
+            .pipe(
+                debounceTime(500),
+                map((event) => {
+                    const { value } = event.target;
+                    return value;
+                }),
+                distinctUntilChanged()
+            )
+            .pipe(
+                tap((inputData) => console.log(inputData)),
+                exhaustMap((inputData) => searchCountries(inputData))
+            );
+    };
+
+    const [data, error] = useObservableV3<Country[]>(factory, EMPTY_ARRAY);
 
     return (
         <Card title="Search Countries">
