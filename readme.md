@@ -19,6 +19,7 @@
       - [Día 11 - Jueves 11/12/2026 (3-45 horas)](#día-11---jueves-11122026-3-45-horas)
     - [Semana 4](#semana-4)
       - [Día 12 - Lunes 15/12/2026 (3-45 horas)](#día-12---lunes-15122026-3-45-horas)
+      - [Día 13 - Martes 16/12/2026 (3 horas)](#día-13---martes-16122026-3-horas)
 
 DURACIÓN: 45 horas
 
@@ -345,7 +346,7 @@ Http Client (introducción)
 - Test de servicios HTTPClient
 
   - Test de servicios HTTPClient (continuación)
-    - 👁️‍🗨️Test del servicio fetchService (generico)
+    - 👁️‍🗨️Test del servicio fetchService (genérico)
     - 👁️‍🗨️Test del servicio fetchUserService (específico)
   - Test componentes que usan servicios HTTPClient
     - 👁️‍🗨️Test del componente GetUser (by button)
@@ -366,13 +367,13 @@ Http Client (introducción)
       - ⚙️Servicios getByUrl y searchPokemon
       - 🧿Componente SearchPokemon
 
-<!-- #### Día 13 - Martes 16/12/2026 (3 horas)
+#### Día 13 - Martes 16/12/2026 (3 horas)
 
     - Flujos de datos en múltiples componentes
       - ⚙️SubjectManager: servicio para compartir flujos
-      - 🧿DemoPage con componentes que com8parten flujos -->
+      - 🧿DemoPage con componentes que com8parten flujos
 
-<!-- [descanso] 16:13 - 16:30
+[descanso] 15:45 - 16:00
 
 - Creación de flujos de datos reactivos con RxJS: Hot Observables
 
@@ -398,4 +399,4 @@ Comentar lo abarcado de los módulos siguientes:
 
 6 - patrones
 7 - testing
-8 - optimización -->
+8 - optimización
