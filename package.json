@@ -2,14 +2,14 @@
   "name": "in-situ-2",
   "version": "1.0.0",
   "description": "",
-   "main": "index.js",
+  "main": "index.js",
   "type": "module",
   "private": true,
   "workspaces": [
     "projects/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server ./server/db.json"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "license": "ISC",
   "prettier": {
     "singleQuote": true
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }
